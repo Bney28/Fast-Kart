@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bd1904ad6b.js" crossorigin="anonymous"></script>
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./Estilos/StyleS4.css">
+
+  <script defer src="./Script/apiS4.js"></script>
+  <script defer src="./Script/mainS4-3 Cart.js"></script>
+
+
+</head>
+
+<body>
+  <header>
+
+    <!--------- Info Superior --------->
+    <div class="infoUp">
+      <p>Something you love is now on sale! <Span>Buy Now!</Span></p>
+
+      <div class="nav-item dropdown" id="infoUpList">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fa-solid fa-flag-usa"></i> English
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Spanish</a></li>
+          <li><a class="dropdown-item" href="#">French</a></li>
+          <li><a class="dropdown-item" href="#">Rusian</a></li>
+        </ul>
+
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          USD
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">EUR</a></li>
+          <li><a class="dropdown-item" href="#">COP</a></li>
+          <li><a class="dropdown-item" href="#">MXN</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!--------- Nav Bar Principal --------->
+    <nav class="navbar navbar-expand-lg bg-light" id="navBarPpal">
+      <div class="container-fluid" id="navBarPpalContainer">
+
+        <a class="navbar-brand" href="./IndexS4-1.html"><img src="./logo.png" alt="logo" class="logoFast"
+            width="120px"></a>
+        <div class="navbar-collapse" id="navbarSupportedContent">
+          <a id="locationIcon" class="nav-link active" aria-current="page" href="./IndexS4-1.html"><i
+              class="fa-solid fa-location-dot"></i></a>
+
+          <div class="input-group">
+            <form class="inputSearch">
+              <input type="text" class="form-control" placeholder="I'm searching for..."
+                aria-label="Recipient's username" aria-describedby="button-addon2" id="input">
+
+              <button class="btn btn-outline-secondary" type="submit" id="button-addon2"><i
+                  class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </div>
+
+          <ul class="navbar-nav me-auto mb-lg-0" id="iconList">
+            <li class="nav-item">
+              <a class="nav-link"><i class="fa-solid fa-phone-volume"></i></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./IndexS4-2 Fav.html"><i class="fa-regular fa-heart"></i></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./IndexS4-3 Cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./IndexS4-4 Admin.html"><i class="fa-regular fa-user"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--------- All Categories Nav Bar --------->
+    <nav class="navbar navbar-expand-lg" id="navBarAllCategories">
+      <div class="container-fluid">
+        <button class="btn btn-success" id="btnAllCategories" type="button"><i class="fa-solid fa-lines-leaning"></i><a
+            href="./IndexS4-1.html"> All
+            Categories</a></button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home <i class="fa-solid fa-caret-down"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop <i class="fa-solid fa-caret-down"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product <i class="fa-solid fa-caret-down"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mega Menu <i class="fa-solid fa-caret-down"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog <i class="fa-solid fa-caret-down"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pages <i class="fa-solid fa-caret-down"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li>
+              <button class="btn btn-light" type="button"><i class="fa-solid fa-bolt"></i></i></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <!--------- Cards Carrito --------->
+  <h3 class="cartandwishlist"><i class="fa-solid fa-cart-shopping"></i> Cart</h3>
+  <div class="btnFavs">
+    <button class="btn btn-outline-success" onclick="location.reload()">Actualizar Carrito</button>
+  </div>
+
+  <div class="card mb-3 mainCart" style="max-width: 90%;" id="mainCart">
+    <!-- <div class="row g-0">
+      <div class="col-md-2">
+        <img src="./FastKart offer 1.PNG" class="img-fluid rounded-start" alt="Product-image">
+      </div>
+
+      <div class="col-md-3">
+        <div class="card-body">
+          <h5 class="card-title">Nombre Producto</h5>
+          <p class="card-text">Descripción y gramos</p>
+        </div>
+      </div>
+      
+      <div class="col-md-1">
+        <div class="card-body">
+          <h5 class="card-title">Precio</h5>
+          <p class="card-text">$$$$$</p>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="card-body">
+          <h5 class="card-title">Calculadora</h5>
+          <p class="card-text">- / +</p>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="card-body">
+          <h5 class="card-title">Total</h5>
+          <p class="card-text">$$$$$</p>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="card-body">
+          <h5 class="card-title">Acción</h5>
+          <p class="card-text">Remove</p>
+        </div>
+      </div>
+
+    </div> -->
+  </div>
+
+  <!--------- Cart Total --------->
+  <h3 class="cartandwishlist">Cart Total</h3>
+
+  <div class="col-12 bg-light cartTotal">
+    <h6>Coupon Apply</h6>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Enter Coupon Code Here..." aria-label="Recipient's username"
+        aria-describedby="button-addon2">
+      <button class="btn btn-outline-success" type="button">Apply</button>
+    </div>
+
+    <div class="col-12 subTotal">
+      <div class="subT">
+        <p>Subtotal</p>
+        <p id="subTotal"> COP</p>
+      </div>
+
+      <div class="subT">
+        <p>Coupon Discount</p>
+        <p>(-) 0.00 COP</p>
+      </div>
+
+      <div class="subT">
+        <p>Shipping</p>
+        <p>$12.000 COP</p>
+      </div>
+
+      <div class="subT totalFinal">
+        <p>Total</p>
+        <p id="total"> COP</p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!--------- Formulario de Compra --------->
+  <div class="row">
+    <hr>
+
+    <div class="col-12">
+      <a class="href" data-bs-toggle="collapse" href="#collapseForm" aria-expanded="false" aria-controls="collapseForm">
+        <button class="btn btn-danger btnForm">Process to Checkout</button>
+      </a>
+    </div>
+
+    <form class="row g-3 bg-light collapse formShop" id="collapseForm">
+      <div class="col-md-10">
+        <input class="form-control" type="text" name="name" placeholder="Name" id="orderName">
+      </div>
+
+      <div class="col-md-10">
+        <input class="form-control" type="text" name="address" placeholder="Address" id="orderAddress">
+      </div>
+
+      <div class="col-md-10">
+        <input class="form-control" type="text" name="phone" placeholder="Phone Number" id="orderPhone">
+      </div>
+
+      <div class="btnCancelBuyNow">
+        <a class="href">
+          <button class="btn btn-light">Cancel</button>
+        </a>
+        <a class="href">
+          <button class="btn btn-danger" id="btnBuyNow">Buy Now</button>
+        </a>
+      </div>
+  </div>
+
+
+
+  <div class="col-12">
+    <button class="btn btn-light btnForm"><a class="href" href="./IndexS4-1.html"><i class="fa-solid fa-arrow-left"></i>
+        Return to Shopping</a></button>
+
+  </div>
+  <hr>
+
+  <!--------- Footer --------->
+  <footer class="bg-light" id="footer">
+    <div class="footer1">
+      <div class="section">
+        <a class="navbar-brand" href="#"><img src="./logo.png" alt="logo" class="logoFast" width="120px"></a>
+        <p id="footerDescription">In publishing and graphic design. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Aut possimus,
+          minima atque, iusto nulla dolorem quam cumque alias beatae magni a eaque aspernatur illo explicabo libero ut
+          recusandae iste deleniti.</p>
+        <p><i class="fa-solid fa-house"></i> 1418 Riverwood Drive, CA 96052. US</p>
+        <p><i class="fa-regular fa-envelope"></i> support@fastkart.com</p>
+      </div>
+      <div class="section">
+        <h4>Categories</h4>
+        <ul class="listSideBar">
+          <li href="#">Vegetables & Fruit</li>
+          <li href="#">Beverages</li>
+          <li href="#">Meats & Seafood</li>
+          <li href="#">Breakfast & Dairy</li>
+          <li href="#">Frozen Foods</li>
+          <li href="#">Biscuits & Snacks</li>
+          <li href="#">Grocery & Staples</li>
+          <li href="#">Wines & Alcohol Drinks</li>
+        </ul>
+      </div>
+      <div class="section">
+        <h4>Useful Links</h4>
+        <ul class="listSideBar">
+          <li>Home</li>
+          <li>Shop</li>
+          <li>About Us</li>
+          <li>Blog</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="section">
+        <h4>Help Center</h4>
+        <ul class="listSideBar">
+          <li>Your Order</li>
+          <li>Your Account</li>
+          <li>Track Order</li>
+          <li>Your Wishlist</li>
+          <li>Search</li>
+          <li>FAQ</li>
+        </ul>
+      </div>
+      <div id="contactUs" class="section">
+        <h4>Contact Us</h4>
+        <div>
+          <p><i class="fa-solid fa-phone-flip"></i> Hotline 24/7:</p>
+          <p><strong>+91 888 104 2340</strong></p>
+        </div>
+        <div>
+          <p><i class="fa-regular fa-envelope"></i> Email Address:</p>
+          <p><strong>fastkart@hotmail.com</strong></p>
+        </div>
+        <div>
+          <p>Download App:</p>
+          <img src="./app-stores.png" alt="app-stores">
+        </div>
+      </div>
+    </div>
+
+    <div class="footer2">
+      <div>
+        <p>© 2022 Fastkart All rights reserved</p>
+      </div>
+      <div>
+        <img src="./credit-cards-logos_orig.png" alt="credit-cards-logos">
+      </div>
+      <div id="socialMedia">
+        <div>
+          <p>Stay connected: <i class="fa-brands fa-facebook-f"></i> <i class="fa-brands fa-twitter"></i> <i
+              class="fa-brands fa-instagram"></i> <i class="fa-brands fa-pinterest-p"></i></p>
+        </div>
+        <div id="buttonBack">
+          <button class="btn btn-success" type="button"><i class="fa-solid fa-gear"></i></i></button>
+          <a href="#infoUpList"><button class="btn btn-success" type="button"><i class="fa-solid fa-angle-up"></i></button></a>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+</body>
+
+</html>

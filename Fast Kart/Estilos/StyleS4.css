@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+/* ------- Info Superior ------- */
+.infoUp {
+    display: flex;
+    flex-direction: row;
+    background-color: #16987f;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.infoUp p {
+    padding-left: 3%;
+    margin-top: 1%;
+}
+
+.infoUp span {
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#infoUpList {
+    display: flex;
+    padding: 0 3%;
+}
+
+#infoUpList a {
+    margin-right: 10%;
+}
+
+/* ------- NavBar Principal ------- */
+
+#navBarPpal {
+    padding: .5% 3%;
+    justify-content: space-between;
+}
+
+#locationIcon {
+    margin-right: 1em;
+    padding: 0 3%;
+}
+
+#button-addon2 {
+    background-color: orange;
+    border: none;
+    color: white;
+}
+
+#button-addon2:hover {
+    background-color: rgb(255, 188, 64);
+}
+
+.inputSearch {
+    display: inline-flex;
+    width: 80%;
+}
+
+#iconList {
+    justify-content: end;
+    padding: 0 2%;
+    cursor: pointer;
+    gap: 8%;
+}
+
+#iconList li:hover {
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.me-auto {
+    margin-right: 3%;
+}
+
+/* ------- NavBar Menú ------- */
+
+#navBarAllCategories {
+    justify-content: center;
+}
+
+#btnAllCategories {
+    background-color: #16987f;
+    border: none;
+    margin-left: 3%;
+}
+
+#btnAllCategories a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbarNav {
+    justify-content: right;
+    margin-right: 3%;
+}
+
+#navbarNav button {
+    border-color: #16987e63;
+}
+
+/* --------- All Container --------- */
+
+#allContainer {
+    display: inline-flex;
+}
+
+/* --------- Offers --------- */
+
+.offers {
+    display: flex;
+    flex-direction: column;
+}
+
+.offers img {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.offers2 {
+    display: none;
+}
+
+/* --------- Side Bar --------- */
+.sideBar {
+    /* width: 50%; */
+    width: 47em;
+    height: 27em;
+    margin: 0 2%;
+    padding: .5% 1%;
+    border-radius: 3%;
+}
+
+.titleSideBar {
+    text-decoration: underline #16987f;
+    font-size: 25px;
+}
+
+.listSideBar {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.listSideBar li {
+    margin: 8% 0;
+}
+
+
+/* ------- Estilos de Tarjetas ------- */
+.cardStyle {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5em;
+}
+
+.cardsUp {
+    height: 10em;
+    overflow: hidden;
+    margin: auto;
+}
+
+.cardsUp img {
+    width: 150px;
+}
+
+.cardsDown {
+    font-size: 12px;
+    height: 12rem;
+}
+
+.card-title {
+    margin: 1%;
+}
+
+.card-text {
+    margin: 1%;
+}
+
+.cardsDown h3 {
+    font-size: 18px;
+}
+
+.cardsDown h5 {
+    font-size: 16px;
+}
+
+#favoritesandcart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+}
+
+#favoritesandcart button {
+    width: 45%;
+}
+
+
+/* ------- Footer ------- */
+
+#footer {
+    margin-top: 2%;
+    padding: 2%;
+    color: dimgray;
+}
+
+.footer1 {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.section {
+    width: 20%;
+    margin: 0 .7%;
+}
+
+#contactUs img {
+    width: 180px;
+    margin: 0;
+}
+
+.footer2 {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer2 img {
+    width: 250px;
+}
+
+#socialMedia {
+    display: inline-flex;
+    width: 20%;
+    align-items: center;
+    gap: 3%;
+}
+
+#buttonBack {
+    display: flex;
+    flex-direction: column;
+}
+
+#buttonBack button {
+    margin: 5%;
+}
+
+/* ------- Index Favorites ------- */
+
+.emptyWishList h3 {
+    width: 100%;
+    margin-left: 30%;
+}
+
+.btnFavs {
+    margin: 1% 2%;
+    margin-left: 82%;
+}
+
+/* ------- Index Cart ------- */
+
+.cartandwishlist {
+    background-color: rgb(243, 243, 243);
+    padding: 1% 8%;
+    margin-bottom: 2%;
+    font-size: 20px;
+
+}
+
+.mainCart {
+    background-color: rgb(243, 243, 243);
+    border: none;
+    margin: auto;
+}
+
+.mainCart img {
+    padding: 5%;
+}
+
+
+.btnForm {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.formShop {
+    width: 80%;
+    margin-left: 10%;
+    justify-content: center;
+}
+
+.calculadora {
+    display: inline-flex;
+    margin-top: 5%;
+}
+
+.inputQuantity {
+    text-align: center;
+    width: 60px;
+
+}
+
+.remove {
+    text-decoration: underline;
+    color: rgb(218, 0, 0);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.edit {
+    text-decoration: underline;
+    color: #16987f;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.btnCancelBuyNow {
+    width: max-content;
+    margin-left: 60%;
+}
+
+.cartTotal {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 5px;
+    margin: auto;
+    padding: 1% 2%;
+}
+
+.subTotal {
+    display: flex;
+    flex-direction: column;
+}
+
+.subT {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.totalFinal {
+    font-weight: 600;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+/* ------- Index Admin ------- */
+.adminWelcome {
+    color: #16987f;
+    font-size: 20px;
+    margin-left: 18%;
+}
+
+.titleForm {
+    font-size: 20px;
+    font-weight: 400;
+    background-color: orange;
+    color: white;
+    padding: .5% 1%;
+    margin-top: 2%;
+}
+
+.titleFormOrder {
+    font-size: 20px;
+    font-weight: 400;
+    background-color: rgb(158, 0, 0);
+    color: white;
+    padding: .5% 1%;
+}
+
+.href {
+    text-decoration: none;
+    color: inherit;
+}
+
+.spanEdit {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.createProduct {
+    padding-bottom: 2%;
+}
+
+
+/* -------------- Media Queries -------------- */
+@media screen and (max-width: 375px) {
+
+    /* ------- Info Superior ------- */
+    .infoUp {
+        font-size: 10px;
+        padding: 1%;
+    }
+
+    .infoUp p {
+        display: none;
+    }
+
+    /* ------- NavBar Principal ------- */
+    #navBarPpalContainer {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #navbarSupportedContent {
+        display: flex;
+    }
+
+    #locationIcon {
+        margin: 0;
+    }
+
+    #iconList {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    /* --------- All Container --------- */
+
+    #allContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* --------- Offers --------- */
+
+    .offers {
+        display: none;
+    }
+
+    .offers2 {
+        display: flex;
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+    .offers2 img {
+        width: 285px;
+        height: 165px;
+        margin: auto;
+    }
+
+    /* --------- Side Bar --------- */
+
+    .sideBar {
+        display: none;
+    }
+
+    /* ------- Estilos de Tarjetas ------- */
+
+    .cardStyle {
+        justify-content: space-around;
+    }
+
+    .cardsDown {
+        height: 12rem;
+    }
+
+    /* ------- Footer ------- */
+    #footer {
+        margin-top: 4%;
+    }
+
+    .footer1 {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .footer2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer2 img {
+        width: 250px;
+    }
+
+    #socialMedia {
+        display: inline-flex;
+        width: 100%;
+        justify-content: center;
+        gap: 6%;
+    }
+
+    #socialMedia p {
+        margin-bottom: 0;
+    }
+
+    #buttonBack {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #buttonBack button {
+        margin: 3%;
+    }
+
+
+    /* ------- Index Favorites ------- */
+       .btnFavs {
+        margin: auto;
+        text-align: center;
+    }
+
+    /* ------- Index Admin ------- */
+    .adminWelcome {
+        font-size: 20px;
+        margin: auto;
+    }
+    
+    #collapseFormNew{
+        width: 95%;
+        margin: auto;
+
+    }
+
+    #collapseFormEdit{
+        width: 95%;
+        margin: auto;
+
+    }
+
+    #collapseFormAll{
+        width: 95%;
+        margin: auto;
+
+    }
+
+    .card-body{
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+}
+
+
+@media screen and (max-width: 899px) {
+
+    /* ------- NavBar Principal ------- */
+    #navBarPpalContainer {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #navbarSupportedContent {
+        display: flex;
+    }
+
+    #locationIcon {
+        margin: 0;
+    }
+
+    #iconList {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    /* --------- All Container --------- */
+
+    #allContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* --------- Side Bar --------- */
+
+    .sideBar {
+        display: none;
+    }
+
+    .listSideBar li {
+        margin: 2% 0;
+    }
+
+    /* ------- Estilos de Tarjetas ------- */
+
+    .cardStyle {
+        justify-content: space-around;
+    }
+
+
+    /* ------- Footer ------- */
+
+    .footer1 {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .footer2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer2 img {
+        width: 250px;
+    }
+
+    #socialMedia {
+        display: inline-flex;
+        width: 100%;
+        justify-content: center;
+        gap: 6%;
+    }
+
+    #socialMedia p {
+        margin-bottom: 0;
+    }
+
+    #buttonBack {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #buttonBack button {
+        margin: 3%;
+    }
+}

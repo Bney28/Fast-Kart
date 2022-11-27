@@ -1,0 +1,115 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "image": "https://http2.mlstatic.com/D_NQ_NP_991522-MCO44931442834_022021-O.webp",
+      "category": "Snacks",
+      "name": "Chocolatina Jumbo",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      "grams": "40 gr",
+      "price": "2700",
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "image": "https://mistiendas.com.co/3066-large_default/chocolatina-hersheys-milk-chocolate.jpg",
+      "category": "Snacks",
+      "name": "Chocolatina Hershey's",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      "grams": "43 gr",
+      "price": "2900",
+      "quantity": 2
+    },
+    {
+      "id": 3,
+      "image": "https://cdn.inoutdelivery.com/altoque.inoutdelivery.com.co/lg/1656109056299-7702133879494.png",
+      "category": "Dulcería",
+      "name": "Bubbaloo Sparkies",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      "grams": "25 gr",
+      "price": "1300",
+      "quantity": 3
+    },
+    {
+      "id": 4,
+      "image": "https://mundodulces17.com/wp-content/uploads/2019/12/d-trululu-gomitas-surtido-24x90gr.png",
+      "category": "Dulcería",
+      "name": "Trululu Gomitas",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      "grams": "90 gr",
+      "price": "1600",
+      "quantity": 8
+    },
+    {
+      "id": 5,
+      "image": "https://pacardylwpmedia.s3.us-east-2.amazonaws.com/wp-content/uploads/2022/03/18173128/7702189057617.jpg",
+      "category": "Mecato",
+      "name": "De Todito",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      "grams": "165 gr",
+      "price": "3500",
+      "quantity": 3
+    },
+    {
+      "id": 6,
+      "image": "https://supermercadocomunal.com/verbenal/5824-large_default/maizitos-ramo-30-gr.jpg",
+      "category": "Mecato",
+      "name": "Maizitos",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      "grams": "30 gr",
+      "price": "1100",
+      "quantity": 0
+    },
+    {
+      "id": 7,
+      "image": "https://m.media-amazon.com/images/I/71MQeIS7FAL.jpg",
+      "category": "Mecato",
+      "name": "Doritos",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      "grams": "28.3 gr",
+      "price": "2200",
+      "quantity": 0
+    },
+    {
+      "id": 8,
+      "image": "https://www.districhapinero.com/assets/media/postobon/h2o.png",
+      "category": "Bebidas",
+      "name": "H2Oh! Limonata",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      "grams": "600 ml",
+      "price": "2500",
+      "quantity": 4
+    },
+    {
+      "id": 9,
+      "image": "https://colsubsidio.vteximg.com.br/arquivos/ids/166508-1200-1200/7702535012079.jpg?v=637299797432100000",
+      "category": "Bebidas",
+      "name": "Quatro",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      "grams": "600 ml",
+      "price": "2500",
+      "quantity": 2
+    },
+    {
+      "image": "https://elchuzodejota.com/wp-content/uploads/2021/05/IMG_2882-450x450.jpg",
+      "category": "snacks",
+      "name": "Galleta Cocosette",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "grams": "50 gr",
+      "price": "1500",
+      "quantity": 1,
+      "id": 10
+    },
+    {
+      "image": "https://s.cornershopapp.com/product-images/1060144.jpg?versionId=E98tucNCrqXCZSD7oTHJy2v5mQtptp7v",
+      "category": "dulceria",
+      "name": "Chococono",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "grams": "95 gr",
+      "price": "2500",
+      "quantity": 4,
+      "id": 11
+    }
+  ],
+  "pedido": []
+}
